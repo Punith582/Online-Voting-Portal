@@ -1,0 +1,64 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Light grey background */
+    margin: 0;
+    padding: 20px;
+    text-align: center; /* Center align text */
+}
+
+/* Heading styles */
+h1 {
+    color: #dc3545; /* Red for error messages */
+    margin-bottom: 20px;
+}
+
+/* Table styling */
+table {
+    width: 80%; /* Make the table take up 80% of the width */
+    margin: 20px auto; /* Center the table */
+    border-collapse: collapse; /* Remove space between borders */
+    background-color: #ffffff; /* White background for table */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Table header styling */
+th {
+    background-color: #007bff; /* Blue background */
+    color: white; /* White text */
+    padding: 12px; /* Padding in header cells */
+}
+
+/* Table cell styling */
+td {
+    padding: 10px; /* Padding in data cells */
+    border-bottom: 1px solid #ddd; /* Light grey bottom border */
+}
+
+/* Button styling */
+button {
+    background-color: #28a745; /* Green background */
+    color: white; /* White text */
+    padding: 12px 20px; /* Padding */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer on hover */
+    font-size: 16px; /* Larger text */
+    margin-top: 20px; /* Space above button */
+}
+
+button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+/* Error message styling */
+.error-message {
+    color: #dc3545; /* Red for error messages */
+    margin: 20px; /* Margin around messages */
+}
+
+/* Success message styling */
+.success-message {
+    color: #28a745; /* Green for success messages */
+}

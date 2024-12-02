@@ -1,0 +1,83 @@
+@charset "UTF-8";
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e9ecef;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Form container styling */
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 8px;
+    max-width: 500px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styles */
+h1 {
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Table cells */
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+/* Label styling */
+label {
+    font-weight: bold;
+}
+
+/* Input field styling */
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+/* Button styling */
+button {
+    background-color: #28a745; /* Green */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Error message styling */
+h1 {
+    color: #dc3545; /* Red for error messages */
+}
+
+/* Success message styling */
+.success {
+    color: #28a745; /* Green for success messages */
+}
+

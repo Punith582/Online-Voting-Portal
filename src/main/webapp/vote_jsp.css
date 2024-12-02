@@ -1,0 +1,64 @@
+@charset "UTF-8";
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Light grey background */
+    margin: 0;
+    padding: 20px; /* Padding around the page */
+    text-align: center; /* Center align text */
+}
+
+/* Table styling */
+table {
+    width: 80%; /* Make the table take up 80% of the width */
+    margin: 20px auto; /* Center the table */
+    border-collapse: collapse; /* Remove space between borders */
+    background-color: #ffffff; /* White background for table */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Table header styling */
+th {
+    background-color: #007bff; /* Blue background */
+    color: white; /* White text */
+    padding: 12px; /* Padding in header cells */
+}
+
+/* Table cell styling */
+td {
+    padding: 10px; /* Padding in data cells */
+    border-bottom: 1px solid #ddd; /* Light grey bottom border */
+}
+
+/* Button styling */
+button {
+    background-color: #28a745; /* Green background */
+    color: white; /* White text */
+    padding: 12px 20px; /* Padding */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer on hover */
+    font-size: 16px; /* Larger text */
+    margin-top: 20px; /* Space above button */
+    width: 100%; /* Full width */
+}
+
+button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+/* Message styling */
+h1 {
+    color: #dc3545; /* Red for error messages */
+    margin: 20px; /* Margin around messages */
+}
+
+/* Results button styling */
+a {
+    text-decoration: none; /* Remove underline from link */
+}
+
+a button {
+    margin-top: 20px; /* Space above the results button */
+}
